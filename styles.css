@@ -3,3 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1{
+  margin: 20px 0px 20px 0px;
+  
+}
+img{
+  width: 200px;
+}
+
+li {
+  border: solid black 1px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
