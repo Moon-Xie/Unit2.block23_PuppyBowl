@@ -169,6 +169,7 @@ const renderSinglePlayer = (player) => {
   console.log(player.name)
   const main = document.querySelector('main');
   playerDetail = document.createElement('div');
+  playerDetail.id = "singlePlayer"
   playerDetail.innerHTML = `
   <p>Name: ${player.name}</p><br>
   <p>ID: ${player.id}</p><br>
