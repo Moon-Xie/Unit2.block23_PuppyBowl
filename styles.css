@@ -3,19 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 h1{
-  margin: 20px 0px 20px 0px;
-  
+  margin: 20px 0px 20px 20px;
 }
+
+#new-player-form{
+  margin-left: 30px;
+}
+
+main{
+  margin-left: 30px;
+}
+
+/*
+CSS Requirements:
+Considers mobile-first design principles and uses one of the following: 
+flex, grid or media queries
+*/
+ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 img{
   width: 200px;
 }
 
 li {
+  list-style: none;
   border: solid black 1px;
   width: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
+  width: 300px;
 }
 button{
   margin-top: 5px;
