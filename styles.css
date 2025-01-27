@@ -43,3 +43,7 @@ button{
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+#singlePlayer img {
+  width: 400px;
+}
